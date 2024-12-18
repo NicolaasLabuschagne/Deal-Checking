@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deal-Checking</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-column logo">
+            <img src="logo.png" alt="Deal-Checking Logo">
+        </div>
+        <div class="header-column header-text">
+            <p>
+                Turning <span class="highlightBlue">Risks</span> Into <span class="highlightBlue">Opportunities</span><br>
+                Through Expert Analysis for Investors
+            </p>
+        </div>
+    </header>
+    
+
+    <nav>
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('dealChecker')">Deal Checker</button>
+        <button onclick="showSection('howItWorks')">How It Works</button>
+        <button onclick="showSection('signUp')">Sign Up / Log In</button>
+        <button onclick="showSection('faq')">FAQ</button>
+        <button onclick="showSection('mastermind')">Mastermind</button>
+        <button onclick="showSection('contact')">Contact Us</button>
+    </nav>
+
+    <main>
+        <section id="home" class="section text">
+            <div class="main-column">
+                <div>
+                    <p><span class="highlightBlue">Instantly Evaluate</span> Investment Properties with Precision and Confidence</p>
+                    <p>Unlock the Power to Analyse Rental Properties, BRRRR Strategies, Fix-and-Flips with Precision</p>
+                    <p><span class="highlightGreen">Discover the Best Real Estate Deals and Maximise Your Profits</span></p>
+                </div>
+                <img src="Picture1.png">
+            </div>
+        </section>
+        <section id="dealChecker"  class="section" style="display: none;">
+            <h2>Deal Checker</h2>
+            <p>Analyze your real estate deals with precision.</p>
+        </section>
+        <section id="howItWorks" class="section" style="display: none;">
+            <h2>How It Works</h2>
+            <p>Learn how to use the platform effectively.</p>
+        </section>
+        <section id="signUp" class="section" style="display: none;">
+            <h2>Sign Up / Log In</h2>
+            <p>Join us or log in to your account.</p>
+        </section>
+        <section id="faq" class="section" style="display: none;">
+            <h2>FAQ</h2>
+            <p>Frequently Asked Questions.</p>
+        </section>
+        <section id="mastermind" class="section" style="display: none;">
+            <h2>Mastermind</h2>
+            <p>Join our mastermind group.</p>
+        </section>
+        <section id="contact" class="section" style="display: none;">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us.</p>
+        </section>
+    </main>
+<script src ="app.js"></script>
+</body>
+</html>
